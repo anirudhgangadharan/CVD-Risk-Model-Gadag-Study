@@ -3,7 +3,6 @@
 [![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12345.svg)](https://doi.org/10.5281/zenodo.12345) 
-*(Note: You can add a Zenodo DOI later for a permanent archive)*
 
 **Authors:** Jannathi Ift¹, Anurudh Gangadharan²
 **Affiliations:** ¹K H Patil Institute of Medical Sciences, Gadag; ²MBBS III Phase Part I, K H Patil Institute of Medical Sciences, Gadag
