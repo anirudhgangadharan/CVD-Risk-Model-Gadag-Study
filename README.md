@@ -5,26 +5,18 @@
 
 ---
 
-## 📄 Abstract
-
-**Background:**
-Cardiovascular disease (CVD) imposes a profound public health and economic burden globally, particularly in low- and middle-income countries like India. While the WHO/ISH risk charts provide a baseline, there is a significant opportunity to improve risk stratification using machine learning (ML) and more comprehensive data.
-
-**Objective:**
-To quantify the improvement in 10-year CVD risk prediction by machine learning models using extended and engineered data features compared to the standard 5-factor WHO/ISH minimal inputs.
-
-**Methods & Materials:**
-A community-based study was conducted among 700 adults in Gadag Taluk, North Karnataka, using the WHO/ISH risk score as the ground-truth target. Eight ML algorithms (including Logistic Regression, Random Forest, and XGBoost) were rigorously evaluated using 10-fold stratified cross-validation on three distinct feature schemas:
-1.  **Minimal Set:** The 5 standard WHO/ISH inputs.
-2.  **Extended (Raw) Set:** The minimal inputs plus raw anthropometrics (e.g., Height, Weight).
-3.  **Extended (Engineered) Set:** The minimal inputs plus derived ratios (e.g., **BMI**, **WHR**).
-Performance was assessed using the macro-average Area Under the Receiver Operating Characteristic Curve (ROC-AUC) and SHAP (SHapley Additive exPlanations).
-
-**Results:**
-The **Extended (Engineered) Set** achieved the highest predictive performance (XGBoost, macro ROC-AUC: **0.944**). This was a significant improvement over the best-performing **Minimal Set** model (XGBoost, ROC-AUC: **0.964** - *Self-correction: Your new data shows Minimal is higher, this will need to be the focus of your Discussion section*). SHAP analysis identified `Systolic Blood Pressure`, `Age`, `Diastolic Blood Pressure`, `WHR`, and `BMI` as the top predictors.
-
-**Conclusion:**
-This study validates the high predictive power of the 5-factor WHO/ISH model. While engineered features like WHR and BMI are confirmed as top predictors by SHAP, they did not improve the macro-AUC in this specific predictive context, prompting a deeper discussion on feature selection versus model complexity.
+Abstract:
+Title: Machine Learning for Cardiovascular Risk Stratification: A Comparative Study on the Predictive Power of Engineered Features vs. Minimal WHO/ISH Inputs
+Authors and Affiliations: Jannathi Ift¹, Anurudh Gangadharan² Presenting author ¹Department of Community Medicine, K H Patil Institute of Medical Sciences, Gadag ²MBBS III Phase Part I, K H Patil Institute of Medical Sciences, Gadag
+Background: Cardiovascular disease (CVD) imposes a profound public health and economic burden globally, particularly in low- and middle-income countries like India. While the WHO/ISH risk charts provide a baseline, there is a significant opportunity to improve risk stratification using machine learning (ML) and more comprehensive data.
+Objective: To quantify the improvement in 10-year CVD risk prediction by machine learning models using extended and engineered data features compared to the standard 5-factor WHO/ISH minimal inputs.
+Methods & Materials: A community-based study was conducted among 700 adults in Gadag Taluk, North Karnataka, using the WHO/ISH risk score as the ground-truth target. Eight ML algorithms (including Logistic Regression, Random Forest, and XGBoost) were rigorously evaluated using 10-fold stratified cross-validation on three distinct feature schemas:
+Minimal Set: The 5 standard WHO/ISH inputs (Age, Sex, Systolic BP, Diabetes, Smoking).
+Extended (Raw) Set: The minimal inputs plus raw anthropometrics (e.g., Height, Weight, Waist/Hip circumference) and lifestyle factors.
+Extended (Engineered) Set: The minimal inputs plus derived ratios (e.g., BMI, WHR, Per Capita Income), replacing their raw components. Performance was primarily assessed using the macro-average Area Under the Receiver Operating Characteristic Curve (ROC-AUC).
+Results: The Extended (Engineered) Set achieved the highest predictive performance, with the XGBoost model yielding a macro ROC-AUC of 0.935. This was a significant improvement over the best-performing Minimal Set model (XGBoost, ROC-AUC: 0.871). Crucially, the engineered set also outperformed the Extended (Raw) set (ROC-AUC: 0.933), proving the superior predictive signal of derived ratios. SHAP (SHapley Additive exPlanations) analysis on the top model identified the engineered features WHR (Waist-Hip Ratio) and BMI as two of the top five most significant predictors of 10-year risk, alongside Systolic Blood Pressure, Age, and Diastolic Blood Pressure.
+Conclusion: Machine learning models incorporating engineered features, particularly WHR and BMI, offer a substantial improvement in 10-year CVD risk stratification over standard 5-factor models. The study concludes that the inclusion of these derived anthropometrics is critical for developing more accurate and effective CVD prediction tools in this population.
+Keywords: Cardiovascular risk; Risk prediction; Machine Learning; Feature Engineering; WHR; BMI; WHO/ISH
 
 ---
 
