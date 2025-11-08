@@ -1,6 +1,6 @@
 # Machine Learning for Cardiovascular Risk Stratification: A Comparative Study on the Predictive Power of Engineered Features vs. Minimal WHO/ISH Inputs
 
-**Authors:** Jannathi Ift, Anurudh Gangadharan
+**Authors:** Dr. Jannathi L Iti, Anurudh Gangadharan
 **Study Location:** Gadag Taluk, North Karnataka
 
 ---
@@ -58,7 +58,7 @@ The notebook will execute from top to bottom, generating all tables, SHAP plots,
 
 If you use this code or data in your research, please cite our paper:
 
-> Ift, J., & Gangadharan, A. (Year). "Machine Learning for Cardiovascular Risk Stratification: A Comparative Study on the Predictive Power of Engineered Features vs. Minimal WHO/ISH Inputs." *Journal Name*, Volume(Issue), pp. XX-XX.
+>L Iti, J., & Gangadharan, A. (2025). CVD-Risk-Model-Gadag-Study: Machine Learning for Cardiovascular Risk Stratification. GitHub Repository. https://github.com/anirudhgangadharan/CVD-Risk-Model-Gadag-Study
 
 ---
 
