@@ -8,7 +8,7 @@
 
 ---
 
-## 📄 Abstract
+##  Abstract
 
 **Objective:**
 To compare the cardiovascular risk prediction of a Minimal machine learning model (based on 5 WHO/ISH factors) with an Extended Feature Model (including anthropometrics, lifestyle factors, etc.) in estimating 10-year risk of major cardiovascular events.
@@ -28,7 +28,7 @@ Our initial hypothesis that an extended-feature model would be superior was disp
 
 ---
 
-## 📊 Key Findings
+##  Key Findings
 
 * **"Less is More"**: The 5-factor `Minimal Set` (AUC **0.9641**) was statistically superior to the `Extended (Engineered)` set (AUC **0.9443**).
 * **Signal vs. Noise**: Adding features not used to create the target variable (the WHO/ISH score) confused the model and worsened its performance.
@@ -36,7 +36,7 @@ Our initial hypothesis that an extended-feature model would be superior was disp
 
 ---
 
-## 📁 Repository Contents
+##  Repository Contents
 
 * `MI Risk v2.ipynb`: The Google Colab notebook with all Python code for the A/B/C experiment, model training, and generation of all tables/plots.
 * `Classification ML model data MI - Sheet1.csv`: The fully anonymized 700-patient dataset.
@@ -47,7 +47,7 @@ Our initial hypothesis that an extended-feature model would be superior was disp
 
 ---
 
-## 🚀 How to Run (Reproducibility)
+##  How to Run (Reproducibility)
 
 This entire analysis can be reproduced in a few clicks:
 
