@@ -1,6 +1,6 @@
 # Machine Learning for Cardiovascular Risk Stratification: A Comparative Study on the Predictive Power of Engineered Features vs. Minimal WHO/ISH Inputs
 
-**Authors:** Dr. Jannathi L Iti, Anurudh Gangadharan
+**Authors:** Dr. Jannathi L Iti, Anirudh Gangadharan
 **Study Location:** Gadag Taluk, North Karnataka
 
 ---
